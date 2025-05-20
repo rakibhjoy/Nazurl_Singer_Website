@@ -17,5 +17,5 @@
 * Responsive Web Design Principles
 🔗 Live Demo
 
-[Visit Live Website]([https://rakibhjoy.github.io/salauddin_ahmed/](https://rakibhjoy.github.io/Nazurl_Singer_Website/))
+[Visit Live Website]([https://rakibhjoy.github.io/salauddin_ahmed/](https://rakibhjoy.github.io/Nazurl_Singer_Website/)
 *(Hosted on GitHub Pages)*
