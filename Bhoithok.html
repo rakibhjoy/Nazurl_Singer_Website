@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salauddin Ahmed - Boithok Khana</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .video-card {
+        transition: transform 0.3s ease;
+        background-color: #212529;
+        border: none;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .video-card:hover {
+        transform: translateY(-5px);
+      }
+      .video-card .card-body {
+        padding: 1rem;
+      }
+      .video-card .card-title {
+        color: #ffc107;
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+      .video-card .embed-responsive {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+      }
+      .video-card .embed-responsive iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-black sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="Home.html">সালাউদ্দিন আহমেদ</a>
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="sidebar offcanvas offcanvas-start bg-black text-white" tabindex="-1" id="offcanvasNavbar">
+          <div class="offcanvas-header text-white">
+            <h5 class="offcanvas-title">সালাউদ্দিন আহমেদ</h5>
+            <button type="button" class="btn-close btn-close-white shadow-none border-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Biography</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="border-radius: 0;">Songs</a>
+                <ul class="dropdown-menu" style="border-radius: 0; background-color: #ffc107;">
+                  <li><a class="dropdown-item" href="Albums.html" >Albums</a></li>
+                    <li><a class="dropdown-item" href="Single.html" >Single Releases</a></li>
+                    <li><a class="dropdown-item" href="Tvshow.html" >TV Shows</a></li>
+                    <li><a class="dropdown-item" href="Bhoithok.html" >Salauddin Ahmed Boithok Khana</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="border-radius: 0;">Articles</a>
+                <ul class="dropdown-menu" style="border-radius: 0; background-color: #ffc107;">
+                  <li><a class="dropdown-item" href="news.html">News</a></li>
+                  <li><a class="dropdown-item" href="interview.html">Interview</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Events.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Course.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Award.html">Awards</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Boithok Khana Section -->
+    <section class="bg-dark py-5">
+      <div class="container">
+        <h2 class="text-center mb-5 fade-in text-white">Salauddin Ahmed Boithok Khana</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col fade-in" style="animation-delay: 0.1s;">
+            <div class="card video-card h-100">
+              <div class="embed-responsive">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" title="Boithok Khana 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Boithok Khana Session 1</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col fade-in" style="animation-delay: 0.2s;">
+            <div class="card video-card h-100">
+              <div class="embed-responsive">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" title="Boithok Khana 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Boithok Khana Session 2</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col fade-in" style="animation-delay: 0.3s;">
+            <div class="card video-card h-100">
+              <div class="embed-responsive">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" title="Boithok Khana 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Boithok Khana Session 3</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0 fade-in">
+            <h3 class="mb-4">সালাউদ্দিন আহমেদ</h3>
+            <p>উচ্চাঙ্গ সঙ্গীত ও নজরুল সঙ্গীতের গবেষক, প্রশিক্ষক ও পরিবেশক</p>
+            <p><i class="fas fa-phone me-2"></i> +880 1234 567890</p>
+            <p><i class="fas fa-envelope me-2"></i> contact@salauddinahmed.com</p>
+          </div>
+          <div class="col-lg-6 fade-in" style="animation-delay: 0.2s;">
+            <h5 class="text-center mb-4">Newsletter</h5>
+            <p class="text-center mb-4">Get notified about upcoming events and new courses.</p>
+            <form class="d-flex justify-content-center">
+              <div class="form-group me-2 w-75">
+                <input type="email" class="form-control bg-dark text-white border-secondary" placeholder="Enter your email">
+              </div>
+              <button type="submit" class="btn btn-warning">SUBSCRIBE</button>
+            </form>
+            <div class="text-center mt-5">
+              <h5 class="mb-4">Follow</h5>
+              <div class="social-icons">
+                <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-spotify"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5 pt-4 border-top border-secondary">
+          <p>© 2025 সালাউদ্দিন আহমেদ. All Rights Reserved.</p>
+        <p class="mb-0">Developed by <a href="https://sbitsbd.com/" style="color: #ffc107;">SBITS</a></p>
+
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-warning" style="position: fixed; bottom: 20px; right: 20px; display: none; z-index: 1000;">
+      <img src="https://img.icons8.com/ios-filled/24/000000/up.png" alt="Top">
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Back to Top Button
+      window.onscroll = function() {
+        const button = document.getElementById("backToTop");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          button.style.display = "block";
+        } else {
+          button.style.display = "none";
+        }
+      };
+
+      document.getElementById("backToTop").onclick = function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
+      // Animation on Scroll
+      document.addEventListener('DOMContentLoaded', function() {
+        const fadeElements = document.querySelectorAll('.fade-in');
+        const fadeObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.style.opacity = 1;
+              entry.target.style.transform = 'translateY(0)';
+            }
+          });
+        }, { threshold: 0.1 });
+
+        fadeElements.forEach(element => {
+          element.style.opacity = 0;
+          element.style.transform = 'translateY(20px)';
+          element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+          fadeObserver.observe(element);
+        });
+      });
+    </script>
+  </body>
+</html>
